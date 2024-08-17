@@ -16,7 +16,7 @@ st.set_page_config(page_title="Chart Visualizations", page_icon="📊")
 
 st.title('DATA INSIGHTS')
 # Read the excel file
-data = pd.read_excel("INX_Future_Inc_Employee_Performance_CDS_Project2_Data_V1.8 (1).xls", index_col=0)
+data = pd.read_excel("C:\\Users\hp\Desktop\\empperfomance\\INX_Future_Inc_Employee_Performance_CDS_Project2_Data_V1.8 (1).xls", index_col=0)
 # data = pd.read_excel('INX_Future_Inc_Employee_Performance_CDS_Project2_Data_V1.8.xls', index_col=0)
 # Setting the EmpNumber as index to ensure that no rows of data in the table are identical
 
