@@ -1,9 +1,8 @@
 import streamlit as st 
 import numpy as np 
 import pandas as pd 
-import matplotlib.pyplot as plt
 import seaborn as sns
-
+import matplotlib.pyplot as plt
 import warnings
 # Ignore warnings
 warnings.filterwarnings('ignore')
@@ -147,7 +146,6 @@ st.markdown('''From the above plots, we get the following insights:
 
 st.header('4. Gender Analysis by Employee Department')
 
-import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Create the figure object
