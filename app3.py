@@ -146,8 +146,6 @@ st.markdown('''From the above plots, we get the following insights:
 
 st.header('4. Gender Analysis by Employee Department')
 
-import seaborn as sns
-
 # Create the figure object
 fig, ax = plt.subplots(figsize=(20, 15))
 
